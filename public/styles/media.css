@@ -111,6 +111,90 @@
 
 /* Valeria */
 @media (min-width : 576px ) and (max-width : 768px) {
+    .header ,.footer {
+        display: flex;
+        background: goldenrod;
+        padding: 1rem;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input {
+        margin-top: 1rem;
+        font-size: 1rem;
+        border-bottom:1px solid aliceblue;
+
+    }
+
+    .logo {
+        font-size: 3rem;
+        color: aliceblue;
+    }
+
+    .nav {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+    }
+
+    .banner-wrapper {
+        height: 15rem;
+        background-image: url("../images/secondary-type-image\(3\).jpeg");
+        background-position: center;
+    }
+
+    .sidebar {
+        background: rgb(226, 181, 99);
+       
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+      
+    }
+
+    .product{
+        background: rgb(232, 192, 117);
+    }
+
+    .product-title{
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-img-wrapper{
+        margin-top: 1rem;
+       
+       
+    }
+
+    .product-img{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 20%;
+       
+    }
+
+    .product-btn{
+        background: rgb(227, 171, 66);
+    }
+
+
+
+    
+
+    
+
     
 }
 
