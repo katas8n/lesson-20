@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: #232323;
+}
+
+.header ,.footer {
+    display: flex;
+    background: pink;
+    padding: 1.6rem;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    background: inherit;
+    border: none;
+    border-bottom: 1px solid rgb(169, 113, 113);
+    font-size: 1.2rem;
+    padding: .2rem;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    display: flex;
+}
+
+.sale {
+    display: none;
+}
+
+.burger-btn-wrapper {
+    display: none;
+}
+
+.banner-wrapper {
+    height: 15rem;
+    background-image: url("../images/banners/banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sidebar ,.main {
+    padding: 2rem;
+    background: rgb(169, 113, 113);
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product {
+    padding: 3rem;
+}
+
+.range-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.range-col:not(.range-col:first-child) {
+    margin-top: 1.2rem;
+}
+
+.range-title {
+    color: wheat;
+    font-size: 1.1rem;
+}
+
+.range-value {
+    margin-top: .6rem;
+    text-align: center;
+}
+
+.product-img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.product-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+}
+
+.product-btn {
+    width: 10rem;
+    height: 2.2rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1.1rem;
+    background: rgb(255, 225, 230);
+    cursor: pointer;
+}
+
+
+.footer {
+
+    justify-content: center;
+}
