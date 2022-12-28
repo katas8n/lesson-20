@@ -106,6 +106,116 @@
 
 /* Nzr */
 @media (min-width : 320px ) and (max-width : 576px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .header ,.footer {
+        display: flex;
+        background: pink;
+        padding: 1rem;
+    }
+
+    .header {
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .logo {
+        
+        font-size: 2rem;
+    }
+
+    .nav {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        margin: 25px;
+        flex-direction: column;
+    }
+
+
+    .banner-wrapper {
+        height: 20rem;
+        background-image: url("../images/secondary-type-image.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .sale {
+        display: block;
+        position: absolute;
+        top: 22rem;
+        background-color: black;
+        width: 110vw;
+        text-align: center;
+        left: -2rem;
+        color: red;
+        font-size: 2rem;
+        transform: rotate(14deg);
+    }
+
+    .nav-link:not(.nav-link:first-child) {
+        margin-top: 1rem;
+    }
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: pink; */
+    }
+
+    .sidebar {
+       /* background: pink; */
+       /* font-size: 23px; */
+       
+    }
+
+    .burger-btn-wrapper {
+        display: flex;
+        justify-content: center;
+        background-color: pink;
+        width: 100%;
+        cursor: pointer;
+        font-size: 1.3rem;
+        color : wheat;
+    }
+
+    .burger-btn-wrapper:hover {
+        background-color: rgb(236, 194, 202);
+        color: rgb(204, 177, 229);
+    }
+
+    .products {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .product {
+        padding: 2rem;
+    }
+
+    .product-title {
+        font-size: 1.3rem;
+    }
+
+    .product-img {
+        width: 13rem;
+        height: 13rem;
+        border-radius: 50%;
+    }
+
+    .footer {
+        font-size: 1.2rem;
+    }
     
 }
 
