@@ -1,0 +1,114 @@
+@media (max-width : 320px ) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .header ,.footer {
+        display: flex;
+        background: pink;
+        padding: 1rem;
+    }
+
+        
+    .header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .logo {
+        
+        font-size: 2rem;
+    }
+
+    .nav {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+
+
+    .banner-wrapper {
+        height: 20rem;
+        background-image: url("../images/secondary-type-image.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .sale {
+        display: block;
+        position: absolute;
+        top: 25rem;
+        background-color: black;
+        width: 145vw;
+        text-align: center;
+        left: -3rem;
+        color: red;
+        font-size: 3rem;
+        transform: rotate(30deg);
+    }
+
+    .nav-link:not(.nav-link:first-child) {
+        margin-top: 1rem;
+    }
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .burger-btn-wrapper {
+        display: flex;
+        justify-content: center;
+        background-color: pink;
+        width: 100%;
+        cursor: pointer;
+        font-size: 1.3rem;
+        color : wheat;
+    }
+
+    .product {
+        padding: 2rem;
+    }
+
+    .product-title {
+        font-size: 1.3rem;
+    }
+
+    .product-img {
+        width: 13rem;
+        height: 13rem;
+        border-radius: 50%;
+    }
+
+    .footer {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width : 320px ) and (max-width : 576px) {
+    
+}
+
+@media (min-width : 576px ) and (max-width : 768px) {
+    
+}
+
+@media (min-width : 768px ) and (max-width : 1200px) {
+    
+}
+
+@media (min-width : 1200px ) {
+    
+}

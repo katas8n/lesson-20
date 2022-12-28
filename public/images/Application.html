@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://127.0.0.1:5500/lesson-20/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    
+    
+  <style type="text/css">@font-face {
+  font-family: 'rbicon';
+  src: url(chrome-extension://dipiagiiohfljcicegpgffpbnjmgjcnf/fonts/rbicon.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+</style><link rel="stylesheet" href="./Application_files/style.css"><link rel="stylesheet" href="./Application_files/media.css"></head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <div class="logo-wrapper">
+          <span class="logo">Burgers</span>
+        </div>
+
+        <div class="input-wrapper">
+          <input type="text" class="input">
+        </div>
+
+        <nav class="nav">
+          <a href="http://127.0.0.1:5500/lesson-20/index.html#" class="nav-link">Home</a>
+          <a href="http://127.0.0.1:5500/lesson-20/index.html#" class="nav-link">About us</a>
+          <a href="http://127.0.0.1:5500/lesson-20/index.html#" class="nav-link">Category</a>
+          <a href="http://127.0.0.1:5500/lesson-20/index.html#" class="nav-link">Register</a>
+        </nav>
+      </header>
+
+      <div class="container">
+        <div class="sale">SALE -25%</div>
+        <div class="banner-wrapper"></div>
+        <section class="products">
+          <aside class="sidebar">
+            <div class="range-row">
+              <div class="range-col">
+                <span class="range-title">From</span>
+
+                <div class="range-wrapper">
+                  <input value="0" min="0" max="123" class="range" type="range" name="price" id="price">
+                  <input class="range-value" value="0$" type="text" disabled="">
+                </div>
+              </div>
+
+              <div class="range-col">
+                <span class="range-title">To</span>
+
+                <div class="range-wrapper">
+                  <input value="0" min="0" max="123" class="range" type="range" name="price" id="price">
+                  <input class="range-value" value="123$" type="text" disabled="">
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          <div class="burger-btn-wrapper">
+          <main class="main">
+              <div class="burger-btn">Add filters</div>
+            </main></div>
+
+            <div class="product">
+              <div class="product-title">
+                <span> Burger </span>
+              </div>
+
+              <div class="product-img-wrapper">
+                <img src="./Application_files/burger-main.jpeg" alt="There is nothing here yet" class="product-img">
+              </div>
+
+              <div class="product-btn-wrapper">
+                <button class="product-btn">Buy</button>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="product-title">
+                <span> Burger </span>
+              </div>
+
+              <div class="product-img-wrapper">
+                <img src="./Application_files/burger-main.jpeg" alt="There is nothing here yet" class="product-img">
+              </div>
+
+              <div class="product-btn-wrapper">
+                <button class="product-btn">Buy</button>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="product-title">
+                <span> Burger </span>
+              </div>
+
+              <div class="product-img-wrapper">
+                <img src="./Application_files/burger-main.jpeg" alt="There is nothing here yet" class="product-img">
+              </div>
+
+              <div class="product-btn-wrapper">
+                <button class="product-btn">Buy</button>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="product-title">
+                <span> Burger </span>
+              </div>
+
+              <div class="product-img-wrapper">
+                <img src="./Application_files/burger-main.jpeg" alt="There is nothing here yet" class="product-img">
+              </div>
+
+              <div class="product-btn-wrapper">
+                <button class="product-btn">Buy</button>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="product-title">
+                <span> Burger </span>
+              </div>
+
+              <div class="product-img-wrapper">
+                <img src="./Application_files/burger-main.jpeg" alt="There is nothing here yet" class="product-img">
+              </div>
+
+              <div class="product-btn-wrapper">
+                <button class="product-btn">Buy</button>
+              </div>
+            </div>
+          
+        </section>
+      </div>
+
+      <footer class="footer">
+        <span>Free copyright (c) 2022</span>
+      </footer>
+    </div>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+<div id="torrent-scanner-popup" style="display: none;"></div><div id="rememberry__extension__root" style="all: unset;"></div></body></html>
