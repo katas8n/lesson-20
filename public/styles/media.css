@@ -127,7 +127,6 @@
         margin-top: 1rem;
         font-size: 1rem;
         border-bottom:1px solid aliceblue;
-
     }
 
     .logo {
@@ -150,15 +149,26 @@
         background-position: center;
     }
 
+    .sale {
+        display: block;
+        position: absolute;
+        top: 24rem;
+        background-color:rgb(166, 149, 19);
+        width: 125vw;
+        text-align: center;
+        left: -3rem;
+        color: aliceblue;
+        font-size: 3rem;
+        transform: rotate(10deg);
+    }
+
     .sidebar {
         background: rgb(226, 181, 99);
-       
     }
 
     .products{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-      
     }
 
     .product{
@@ -174,28 +184,17 @@
 
     .product-img-wrapper{
         margin-top: 1rem;
-       
-       
     }
 
     .product-img{
         width: 10rem;
         height: 10rem;
         border-radius: 20%;
-       
     }
 
     .product-btn{
         background: rgb(227, 171, 66);
     }
-
-
-
-    
-
-    
-
-    
 }
 
 /* Evgenia */
