@@ -114,13 +114,15 @@
     .header ,.footer {
         display: flex;
         background: goldenrod;
-        padding: 1rem;
+        /* padding: 1rem; */
+        width: 100%;
     }
 
     .header {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
     }
 
     .input {
@@ -154,7 +156,7 @@
         position: absolute;
         top: 24rem;
         background-color:rgb(166, 149, 19);
-        width: 125vw;
+        width: 107vw;
         text-align: center;
         left: -3rem;
         color: aliceblue;
@@ -162,34 +164,60 @@
         transform: rotate(10deg);
     }
 
+    
+
     .sidebar {
         background: rgb(226, 181, 99);
-    }
-
-    .products{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-    }
-
-    .product{
-        background: rgb(232, 192, 117);
-    }
-
-    .product-title{
-        font-size: 1.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
+    .range-wrapper{
+        width: 15rem;
+    }
+
+    .products{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product{
+        display: flex;
+        justify-content: space-between;
+        background: rgb(232, 192, 117);
+    }
+
+    .product-title{
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        margin-left: 4.5rem;
+    }
+
     .product-img-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 1rem;
     }
 
     .product-img{
-        width: 10rem;
-        height: 10rem;
-        border-radius: 20%;
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+    }
+
+    .product-btn-wrapper{
+        position: absolute;
+        margin-top: 5rem;
+        margin-left: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding: 20px;
     }
 
     .product-btn{
